@@ -52,13 +52,16 @@
                 <option value="travelHealthUpdate">Travel health update</option>
             </select>
         </div>
-        <!-- Dropdown for selecting Delivery Method -->
+        <!-- Radio buttons for selecting Delivery Method -->
         <div class="form-row">
             <label for="deliveryMethod">Delivery Method:</label>
-            <select id="deliveryMethod" name="entry.2006914053">
-                <option value="faceToFace">Face-to-Face</option>
-                <option value="virtual">Virtual (Via Zoom)</option>
-            </select>
+            <div class="radio-group" id="deliveryMethod">
+                <input type="radio" id="faceToFace" name="entry.2016715143" value="Face-to-Face">
+                <label for="faceToFace">Face-to-Face</label>
+        
+                <input type="radio" id="virtual" name="entry.2016715143" value="Virtual (via Zoom)>
+                <label for="virtual">Virtual (Via Zoom)</label>
+            </div>
         </div>
         <!-- Input field for Number of Delegates -->
         <div class="form-row">
