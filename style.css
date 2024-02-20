@@ -35,7 +35,7 @@ select {
 
 /* Styling for the submit button */
 input[type="submit"] {
-    background-color: #007bff;
+    background-color: #00ff4c;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -49,7 +49,7 @@ input[type="submit"] {
 
 /* Hover effect for the submit button */
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #00ff4c;
 }
 
 /* Placeholder color */
@@ -63,26 +63,6 @@ input[type="email"]:focus,
 input[type="number"]:focus,
 textarea:focus,
 select:focus {
-    border-color: #007bff;
+    border-color: #00ff4c;
     outline: none; /* Remove default focus outline */
-}
-
-/* Adjust label width for side-by-side layout */
-@media (min-width: 768px) {
-    .form-row {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .form-row label {
-        flex-basis: 20%;
-        margin-bottom: 0; /* Remove the bottom margin */
-    }
-
-    .form-row input,
-    .form-row select,
-    .form-row textarea {
-        flex-basis: 75%;
-    }
 }
