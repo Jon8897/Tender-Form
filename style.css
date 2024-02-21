@@ -35,7 +35,7 @@ select {
 
 /* Styling for the submit button */
 input[type="submit"] {
-    background-color: #00ff4c;
+    background-color: #20ad96;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -49,7 +49,7 @@ input[type="submit"] {
 
 /* Hover effect for the submit button */
 input[type="submit"]:hover {
-    background-color: #00ff4c;
+    background-color: #20ad96;
 }
 
 /* Placeholder color */
@@ -63,6 +63,6 @@ input[type="email"]:focus,
 input[type="number"]:focus,
 textarea:focus,
 select:focus {
-    border-color: #00ff4c;
+    border-color: #20ad96;
     outline: none; /* Remove default focus outline */
 }
