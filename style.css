@@ -22,6 +22,7 @@
 input[type="text"],
 input[type="email"],
 input[type="number"],
+input[type="tel"]:focus,
 textarea,
 select {
     width: 100%;
@@ -61,6 +62,7 @@ input[type="submit"]:hover {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus,
+input[type="tel"]:focus,
 textarea:focus,
 select:focus {
     border-color: #20ad96;
