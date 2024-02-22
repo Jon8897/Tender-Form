@@ -11,7 +11,7 @@
 }
 
 /* Style for form labels */
-.label {
+.form-style .label {
     display: block;
     margin-bottom: 10px;
     color: #333;
@@ -19,12 +19,12 @@
 }
 
 /* General input, select, and textarea styling */
-input[type="text"],
-input[type="email"],
-input[type="number"],
-input[type="tel"]:focus,
-textarea,
-select {
+.form-style input[type="text"],
+.form-style input[type="email"],
+.form-style input[type="number"],
+.form-style input[type="tel"]:focus,
+.form-style textarea,
+.form-style select {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -35,7 +35,7 @@ select {
 }
 
 /* Styling for the submit button */
-input[type="submit"] {
+.form-style input[type="submit"] {
     background-color: #20ad96;
     color: white;
     padding: 12px 20px;
@@ -49,22 +49,22 @@ input[type="submit"] {
 }
 
 /* Hover effect for the submit button */
-input[type="submit"]:hover {
+.form-style input[type="submit"]:hover {
     background-color: #20ad96;
 }
 
 /* Placeholder color */
-::placeholder {
+.form-style ::placeholder {
     color: #888;
 }
 
 /* Focus state for inputs */
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-textarea:focus,
-select:focus {
+.form-style input[type="text"]:focus,
+.form-style input[type="email"]:focus,
+.form-style input[type="number"]:focus,
+.form-style input[type="tel"]:focus,
+.form-style textarea:focus,
+.form-style select:focus {
     border-color: #20ad96;
     outline: none; /* Remove default focus outline */
 }
